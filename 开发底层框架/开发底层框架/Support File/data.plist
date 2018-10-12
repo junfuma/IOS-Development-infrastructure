@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GuideImg</key>
+	<array>
+		<string>guide_Image1</string>
+		<string>guide_Image2</string>
+		<string>guide_Image3</string>
+	</array>
+	<key>MainTabBar</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>首页</string>
+			<key>titleColor</key>
+			<string>RGBA(33, 76, 146, 1.0f)</string>
+			<key>highlightedTitleColor</key>
+			<string>RGBA(85, 136, 216, 1.0f)</string>
+			<key>image</key>
+			<string>home_normal</string>
+			<key>highlightedImage</key>
+			<string>home_highlight</string>
+			<key>selectedBackgroundImage</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>行情</string>
+			<key>image</key>
+			<string>markets_normal</string>
+			<key>titleColor</key>
+			<string>RGBA(33, 76, 146, 1.0f)</string>
+			<key>highlightedTitleColor</key>
+			<string>RGBA(85, 136, 216, 1.0f)</string>
+			<key>highlightedImage</key>
+			<string>markets_highlight</string>
+			<key>selectedBackgroundImage</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>交易</string>
+			<key>image</key>
+			<string>margin_normal</string>
+			<key>titleColor</key>
+			<string>RGBA(33, 76, 146, 1.0f)</string>
+			<key>highlightedTitleColor</key>
+			<string>RGBA(85, 136, 216, 1.0f)</string>
+			<key>highlightedImage</key>
+			<string>margin_highlight</string>
+			<key>selectedBackgroundImage</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>我的</string>
+			<key>image</key>
+			<string>me_normal</string>
+			<key>titleColor</key>
+			<string>RGBA(33, 76, 146, 1.0f)</string>
+			<key>highlightedTitleColor</key>
+			<string>RGBA(85, 136, 216, 1.0f)</string>
+			<key>highlightedImage</key>
+			<string>me_highlight</string>
+			<key>selectedBackgroundImage</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>HeardVersion</key>
+	<dict>
+		<key>content-center</key>
+		<string>v1-2-4</string>
+		<key>tinygame-center</key>
+		<string>v1-2-4</string>
+		<key>deliver-center</key>
+		<string>v1-2-4</string>
+		<key>goods-center</key>
+		<string>v1-2-4</string>
+		<key>marketing-center</key>
+		<string>v1-2-5</string>
+		<key>order-center</key>
+		<string>v1-2-4</string>
+		<key>payment-service</key>
+		<string>v1-2-4</string>
+		<key>provider-center</key>
+		<string>v1-2-5</string>
+		<key>pushmessage-center</key>
+		<string>v1-2-5</string>
+		<key>social-center</key>
+		<string>v1-2-5</string>
+		<key>user-center</key>
+		<string>v1-2-4</string>
+		<key>app-server</key>
+		<string>v1-2-5</string>
+	</dict>
+</dict>
+</plist>

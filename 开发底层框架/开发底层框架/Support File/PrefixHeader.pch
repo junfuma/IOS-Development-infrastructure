@@ -1,0 +1,94 @@
+//
+//  PrefixHeader.pch
+//  开发底层框架
+//
+//  Created by 开拍网ios研发 on 2018/10/12.
+//  Copyright © 2018年 开拍网ios研发. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "BaseConfig.h"
+#import "ChatDemoUIDefine.h"
+#import "device.h"
+#import "BaseColorConfig.h"
+#import "cycleConfig.h"
+#import "BaseFrameConfig.h"
+#import "UIView+SYExtend.h"
+#import "UIImage+BSImage.h"
+#import "NSString+Size.h"
+#import "NSString+date.h"
+#import "SMlabel.h"
+#import "UIColor+Hex.h"
+#import "BaseFrameConfig.h"
+#import "IHUtility.h"
+#import "SDPhotoBrowserConfig.h"
+#import <SDWebImage/SDWebImage.h>
+#import <SDWebImage/SDImageCache.h>
+#import "UITextField+SSCustomerTextField.h"
+#import <AFNetworking/AFNetworking.h>
+#import <Masonry/Masonry.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <JSONModel/JSONModel.h>
+#import <MJRefresh/MJRefresh.h>
+#import "UIAsyncImageView.H"
+#import "MBProgressHUD+MJ.h"
+#import "SMBaseViewController.h"
+#import "UIImage+CustomerImage.h"
+#import "IHTextBaseTextField.h"
+#import "Contant.h"
+#import "UIButton+Block.h"
+#import "UIButton+ImageTitleSpacing.h"
+#import "MTBaseTableView.h"
+#import "MTTableViewCell.h"
+#import "MTDataSource.h"
+#import "MTNetworkData.h"
+#import "MTNetworkData+extend.h"
+#import "MTNetworkData+extend1.h"
+#import "MTNetworkData+ForModel.h"
+#import "IHUtility+category.h"
+#import "RSAEncryptor.h"
+#import "KTNNetManger.h"
+#import "NSObject+Common.h"
+#import "NSObjectTool.h"
+#import "IHBase.h"
+
+#define sysFont(f)  [UIFont systemFontOfSize:f]
+#define boldFont(f) [UIFont boldSystemFontOfSize:f]
+
+#define  Image(png) [UIImage imageNamed:png]
+#define  Default_Image  Image(@"defaultI_mage")
+
+
+#define TabbarCount  [ConfigManager getMainConfigList].count
+
+#define stringFormatInt(n) [NSString stringWithFormat:@"%d",n]
+#define stringFormatString(n)  [NSString stringWithFormat:@"%@",n]
+#define stringFormatDouble(n)  [NSString stringWithFormat:@"%f",n]
+
+#define KP_PublicKey  [[NSUserDefaults standardUserDefaults]objectForKey:@"publishKey"]
+
+
+
+//自定义的
+#define MyLocalized(key)  [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"appLanguage"]] ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"Localizable"]
+
+
+
+
+
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+#define debugMethod()
+#endif
+
+#endif /* PrefixHeader_pch */

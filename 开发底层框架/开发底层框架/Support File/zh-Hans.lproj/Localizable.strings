@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  newCoinali
+
+  Created by 开拍网ios研发 on 2018/10/8.
+  Copyright © 2018年 开拍网ios研发. All rights reserved.
+*/
+"hello"="你好";
+"login"="登录";
+"register"="注册";
+"My assets"="我的资产";
+"You can view it after logging in"="登录后可查看";
+"Currency's community"="币吧社区";
+"OTC trading"="场外交易";
+"Invite commission"="邀请返佣";
+"Help center"="帮助中心";
+"trading volume"="成交量";
+"Community"="社区";
+"deal"="交易";
+"commission"="返佣";
+"help"="帮助";
+"preview"="预览";
+"Please enter password"="请输入密码";
+"Please enter a user name" = "请输入用户名";
+"close" = "关闭";
+"Email login" = "邮箱登录";
+"Forgot password"= "忘记密码";
+"Register a new account" = "注册新账号";
+"COINALI"="COINALI";
+"My assets - pre-login background"="我的资产-登录前背景";
+"My assets - post-login background"="我的资产-登录后背景";
+"performer"= "涨幅榜";
+"Drop list"= "跌幅榜";
+
+"My assets"= "我的资产";
+"The identity authentication"= "身份认证";
+"Security center"= "安全中心";
+"Transaction management"= "交易管理";
+"Invite commission"= "邀请返佣";
+"Help center"= "帮助中心";
+"System Settings"= "系统设置";
+"About us"= "关于我们";
+"currency" = "币种";
+"The latest price"= "最新价";
+"24 H Rise and fall"= "24H涨跌";
+"optional"="自选";
+"ETC"="ETC";
+"BTC"="BTC";
+"HKT"="HKT";
+"buy"="买入";
+"sell"="卖出";
+"available"="可用";
+"count" ="数量" ;
+"turnover" = "交易额";
+"price" ="价格";
+"cancellations"="撤单";
+"Entrust the price"="委托价格";
+"Entrust the number"="委托数量";
+"Entrust the time"="委托时间";
+"Clinch a deal the quantity"="成交数量";
+"Commissioned by the current"="当前委托";
+"all"="全部";
+"screening"="筛选";
+"Please enter the correct phone number or email address"="请输入正确的手机号或邮箱";
+"Please complete the information"="请完善信息";
+"The verification code was sent successfully"="验证码发送成功";
+"The verification code was sent failure"="验证码发送失败";
+"Please enter the correct account name"="请输入正确的账户名";
+"Registered successfully"="注册成功!";
+"Public key failure" = "获取公钥失败";
+"Public key success" = "获取公钥成功";
+"Log in successfully"="登陆成功";
